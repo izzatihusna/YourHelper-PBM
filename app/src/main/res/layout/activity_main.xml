@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Design.Light.NoActionBar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="40dp"
+        android:text="YOUR HELPER !" />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="275dp"
+        android:layout_height="300dp"
+        android:background="@drawable/gambar1"/>
+
+    <TextView
+        android:id="@+id/txtselamat"
+        android:layout_below="@+id/gambar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:text="Selamat Datang!" />
+
+    <TextView
+        android:id="@+id/txtselamat2"
+        android:layout_below="@+id/txtselamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Temukan Layanan terbaikmu disini" />
+
+    <Button
+        android:id="@+id/btnmasuk1"
+        android:layout_below="@+id/txtselamat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/custom_button"
+        android:text="Mulai"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
